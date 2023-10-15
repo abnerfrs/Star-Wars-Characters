@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./assets/millennium-falcon.png" type="image/x-icon">
+    <title>Star Wars Characters</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <div class="logo">
+                <img src="./assets/star-wars-logo.png" alt="log" class="logo-img">
+                <span class="logo-txt">Characters</span>
+            </div>
+        </a>
+
+        <div class="social-media">
+            <a target="_blank" href="https://instagram.com/l3iner"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://facebook.com/abner.biner2002"><i class="fa-brands fa-facebook-f"></i></a>
+            <a target="_blank" href="https://github.com/abnerfrs"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/abner-freitas-b1281a1a1/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+    </header>
+
+    <div class="main-container">
+        <h2>Conheca todos os personagens de Star Wars em um so lugar</h2>
+        <div class="main-content" id="main-content"></div>
+        <!-- <div class="cards" style="background-image: url('https://starwars-visualguide.com/assets/img/characters/1.jpg')">
+                <div class="character-name-bg">
+                <span class="character-name"> Luke</span>
+                </div>
+              </div> -->
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content">
+                
+            </div>
+        </div>
+        <div class="btns">
+            <button id="back-btn" disabled>Anterior</button>
+            <button id="next-btn" disabled>Próximo</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyright">Desenvolvido por &copy; Abner Freitas</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0b47424195.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
